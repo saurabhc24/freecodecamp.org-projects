@@ -1,0 +1,168 @@
+<!--THIS PROJECT IS DONE BY SAURABH CHANDRA FOR freecodecamp.org Project-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FCC Product landing page</title>
+        <!--title logo-->
+        <link rel="shortcut icon" href="img/brand-logo.png" type="image/jpeg">
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--external style sheet-->
+        <link rel="stylesheet" href="productstyles.css">
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <!--icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+      <!--navigation-->
+      <header id="header">
+        <div class="header-navigation">
+          <nav id="nav-bar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <img id="header-img" src="http://www.pngall.com/wp-content/uploads/4/Dog-Food-Transparent.png" alt="company logo" class="logo-img">
+              <a href="productindex.html" class="navbar-brand" style="font-family:Sofia">The Farmer's Dog</a>
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <div class="navbar-nav">
+                      <a href="#about" class="nav-item nav-link">About Us</a>
+                      <a href="#services" class="nav-item nav-link">Services</a>
+                      <a href="#contact" class="nav-item nav-link">Contact Us</a>
+                  </div>
+              </div>
+          </nav>
+        </div>
+      </header>
+
+      <!--main display-->
+      <div class="container-fluid" style="padding: 60px 0px 0px 0px;">
+          <div class="intro img-fluid">
+            <div class="col-md-12">
+              <div class="intro-content">
+                <p>WE OFFER<br>
+                  PROFESSIONAL<br>
+                  DAYCARE, GROOMING &amp; TRAINING
+                </p>
+                <a href="#contact" class="action-button shadow animate yellow">JOIN NOW</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!--END main display-->
+
+      <!--about us-->
+      <section class="aboutus" id="about">
+        <div class="container text-xs-left">
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="section-head">
+                <h1>ABOUT US</h1>
+              </div>
+            </div>
+            <div class="col-sm-7 col-md-5" style="padding-top: 80px;">
+              <h3>WELCOME TO OUR CLUB!</h3>
+              <p>
+                We welcome dogs of any type, age or ability and we will do our best to guide you as to how to
+                get the best out of your dog. We try to make our classes fun for both owner and dog,
+                learning is much easier in a relaxed happy
+                atmosphere.
+              </p>
+              <h3>OUR ADVANTAGES</h3>
+            <ul class="marked-list">
+              <li>Brand new build-to-suit facility</li>
+              <li>Open 365 days</li>
+              <li>No reservations needed for day care</li>
+              <li>First day is Free!</li>
+              <li>Safe, non-industrial township location</li>
+              <li>Dogs separated by size & temperament</li>
+              <li>Experienced and caring team</li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END about us-->
+
+      <!--Services-->
+      <section class="ser" id="services">
+        <div class="container-fluid text-xs-right">
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="section-head" style="margin-left: 400px; padding-top: 75px;">
+                <h1>SERVICES</h1>
+              </div>
+            </div>
+            <div class="service">
+              <div class="col-sm-10">
+                <div class="row" style="margin-top: 50px;">
+                  <div class="col-lg-4">
+                    <h3>DOG DAYCARE</h3>
+                    <p>We provide all day supervised play time in our spacious indoor/outdoor dog play areas seven days a week!</p>
+                  </div>
+                  <div class="col-lg-4">
+                    <h3>DOG BOARDING</h3>
+                    <p>Our spacious suites provide a very different feel than a traditional "kennel" environment where your dog is simply housed and fed.</p>
+                  </div>
+                  <div class="col-lg-4">
+                    <h3>DOG EXTRAS</h3>
+                    <p>Along with daycare and boarding we offer several other services for your convenience & enjoyment.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="vid">
+              <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/1kgmfPClsZc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END Service-->
+
+      <!--contact-->
+      <section class="contacts" id="contact">
+        <div class="container text-xs-left text-xs-center">
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="section-head">
+                <h1>CONTACTS</h1>
+              </div>
+            </div>
+            <div class="col-sm-8 col-md-5" style="padding-top: 100px;">
+              <h3>CONTACT FORM</h3>
+              <form class="mailform" id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="name" class="form-control" id="name" placeholder="Your Name" name="name" required>
+                <input type="email" class="form-control" id="email" placeholder="Your Email" name="email" required>
+                <textarea type="textarea" class="form-control" id="msg" placeholder="Message" name="msg" style="height: 200px;"></textarea>
+                <input type="submit" class="btn btn-primary" id="submit" placeholder="Submit" value="submit">
+              </form>
+            </div>
+            <div class="col-sm-8 col-md-5" style="padding:90px 0px 30px 60px;">
+              <h3>FOLLOW US</h3>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-google"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END contact-->
+
+      <!--Footer-->
+      <footer id="footer">
+        <span>&copy; 2020, SAURABH CHANDRA</span>
+        <ul>
+            <li><a href="https://github.com/saurabhc24" target="_blank">GitHub</a></li>
+            <li><a href="https://www.freecodecamp.org/saurabhchandra" target="_blank">Freecodecamp</a></li>
+        </ul>
+    </footer>
+
+      <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    </body>
+</html>
