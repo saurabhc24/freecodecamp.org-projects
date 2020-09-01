@@ -1,4 +1,4 @@
-## You can view my project live [here](https://codepen.io/saurabhc24/full/poyzzOL target="_blank").
+## You can view my project live [here](https://codepen.io/saurabhc24/full/poyzzOL){:target="_blank" rel="noopener"}.
 ----
 
 # Responsive Web Design Projects - Build a Product Landing Page #
