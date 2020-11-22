@@ -1,4 +1,4 @@
-You can view my project [live here](https://codepen.io/saurabhc24/pen/RwrEKBR)
+You can view my project [live here](https://codepen.io/saurabhc24/full/RwrEKBR)
 - - - -
 # Responsive Web Design Projects - Build a Tribute Page #
 
